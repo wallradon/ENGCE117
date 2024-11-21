@@ -1,17 +1,23 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (iPad; CPU OS 17_7_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/131.0.6778.73 Mobile/15E148 Safari/604.1" version="24.8.6">
   <diagram name="Page-1" id="Hnxu8_8Ku-TV39dNuLR_">
-    <mxGraphModel dx="1206" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1518" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AM7LQ0HO90xgIuVz8iBt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AM7LQ0HO90xgIuVz8iBt-13" target="AM7LQ0HO90xgIuVz8iBt-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM7LQ0HO90xgIuVz8iBt-15" value="&lt;div style=&quot;text-align: start;&quot;&gt;สั่งงานแสดงข้อความ &amp;nbsp;&quot;&lt;font face=&quot;ui-monospace, Menlo, monospace&quot; color=&quot;#fbfbfc&quot;&gt;&lt;span style=&quot;caret-color: rgb(251, 251, 252); font-size: 14.45px; background-color: rgba(191, 193, 201, 0.08);&quot;&gt;Hwllo World.&quot;&lt;/span&gt;&lt;/font&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="-560" width="120" height="60" as="geometry" />
+        <mxCell id="AM7LQ0HO90xgIuVz8iBt-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;" edge="1" parent="1" source="AM7LQ0HO90xgIuVz8iBt-15" target="AM7LQ0HO90xgIuVz8iBt-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AM7LQ0HO90xgIuVz8iBt-15" value="&lt;div style=&quot;&quot;&gt;สั่งงานแสดงข้อความ &amp;nbsp;&quot;&lt;font face=&quot;ui-monospace, Menlo, monospace&quot;&gt;&lt;span style=&quot;caret-color: rgb(251, 251, 252); font-size: 14.45px; background-color: rgba(191, 193, 201, 0.08);&quot;&gt;Hwllo World.&quot;&lt;/span&gt;&lt;/font&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-415" y="-540" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AM7LQ0HO90xgIuVz8iBt-13" value="SATRT" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-410" y="-640" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AM7LQ0HO90xgIuVz8iBt-18" value="STOP" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="-440" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
