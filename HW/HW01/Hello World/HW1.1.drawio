@@ -4,20 +4,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AM7LQ0HO90xgIuVz8iBt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AM7LQ0HO90xgIuVz8iBt-13" target="AM7LQ0HO90xgIuVz8iBt-15">
+        <mxCell id="Uhq6O7xmegFHdYGJgDLc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AM7LQ0HO90xgIuVz8iBt-13" target="Uhq6O7xmegFHdYGJgDLc-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM7LQ0HO90xgIuVz8iBt-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;" edge="1" parent="1" source="AM7LQ0HO90xgIuVz8iBt-15" target="AM7LQ0HO90xgIuVz8iBt-18">
+        <mxCell id="AM7LQ0HO90xgIuVz8iBt-13" value="SATRT" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="-630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AM7LQ0HO90xgIuVz8iBt-18" value="STOP" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="-320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uhq6O7xmegFHdYGJgDLc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uhq6O7xmegFHdYGJgDLc-2" target="AM7LQ0HO90xgIuVz8iBt-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM7LQ0HO90xgIuVz8iBt-15" value="&lt;div style=&quot;&quot;&gt;สั่งงานแสดงข้อความ &amp;nbsp;&quot;&lt;font face=&quot;ui-monospace, Menlo, monospace&quot;&gt;&lt;span style=&quot;caret-color: rgb(251, 251, 252); font-size: 14.45px; background-color: rgba(191, 193, 201, 0.08);&quot;&gt;Hwllo World.&quot;&lt;/span&gt;&lt;/font&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-415" y="-540" width="150" height="60" as="geometry" />
+        <mxCell id="Uhq6O7xmegFHdYGJgDLc-2" value="แสดง &amp;nbsp;Hello World." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-435" y="-420" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AM7LQ0HO90xgIuVz8iBt-13" value="SATRT" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="-640" width="140" height="60" as="geometry" />
+        <mxCell id="Uhq6O7xmegFHdYGJgDLc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uhq6O7xmegFHdYGJgDLc-3" target="Uhq6O7xmegFHdYGJgDLc-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM7LQ0HO90xgIuVz8iBt-18" value="STOP" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="-440" width="140" height="60" as="geometry" />
+        <mxCell id="Uhq6O7xmegFHdYGJgDLc-3" value="สั่งงานแสดงค่า &quot;Hello World.&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="-530" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
