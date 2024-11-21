@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (iPad; CPU OS 17_7_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/131.0.6778.73 Mobile/15E148 Safari/604.1" version="24.8.6">
   <diagram name="Page-1" id="DuXZzbCSL1fpq2oBDUcA">
-    <mxGraphModel dx="102" dy="58" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="803" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,14 @@
         </mxCell>
         <mxCell id="lJPXdTyREccG4QOEyWTy-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;" edge="1" parent="1" source="lJPXdTyREccG4QOEyWTy-6" target="lJPXdTyREccG4QOEyWTy-12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lJPXdTyREccG4QOEyWTy-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;" edge="1" parent="1" source="lJPXdTyREccG4QOEyWTy-6" target="lJPXdTyREccG4QOEyWTy-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="598" y="435" />
+              <mxPoint x="598" y="680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="lJPXdTyREccG4QOEyWTy-6" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;การทำงานเป็นไปตามที่ต้องการ&lt;/font&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;rounded=0;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="345.25" y="390" width="163.5" height="90" as="geometry" />
@@ -56,11 +64,11 @@
         <mxCell id="lJPXdTyREccG4QOEyWTy-19" value="ทดสอบการทำงานโปรแกรม" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="367" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lJPXdTyREccG4QOEyWTy-22" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lJPXdTyREccG4QOEyWTy-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="440" as="sourcePoint" />
-            <mxPoint x="600" y="435" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="lJPXdTyREccG4QOEyWTy-32" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="363" y="743" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lJPXdTyREccG4QOEyWTy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;" edge="1" parent="1" source="lJPXdTyREccG4QOEyWTy-19" target="lJPXdTyREccG4QOEyWTy-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
