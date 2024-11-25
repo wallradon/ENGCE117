@@ -1,0 +1,19 @@
+Please enter value (a b) : 55 1
+a = 55 , b = 1 
+a + b = 56 
+a - b = 54 
+a * b = 55 
+a / b = 55 (b must greater than 0)
+a % b = 0 
+++a = 56 
+a-- = 56 
+a += 1 56 
+a += b 57 
+a -= 1 56 
+a -= b 55 
+a *= 1 55 
+a *= b 55 
+a %= 1 0 
+a %= b 0 
+a && b 0 
+a || b 1
