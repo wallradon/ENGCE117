@@ -1,0 +1,5 @@
+Enter the number of day : 8
+8 days = 691200 seconds
+
+Enter the number of day : 27
+27 days = 2332800 seconds

@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="jPK3mtU3912ozePmfI7T">
+    <mxGraphModel dx="2146" dy="4579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LePeqE8UnKB5lblaura4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GKYSavb73CZCJ6DlVbEL-1" target="LePeqE8UnKB5lblaura4-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-1" value="เริ่ม" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="-3270" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LePeqE8UnKB5lblaura4-3" target="LePeqE8UnKB5lblaura4-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-3" value="สร้างตัวแปร employees_id เพื่อเก็บ รหัสประจำตัวพนักงาน" style="whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-3100" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LePeqE8UnKB5lblaura4-5" target="LePeqE8UnKB5lblaura4-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-5" value="สร้างตัวแปร working_hrs เพื่อเก็บ เวลาการทำงาน" style="whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-2990" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LePeqE8UnKB5lblaura4-7" target="LePeqE8UnKB5lblaura4-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-7" value="สร้างตัวแปร salary เพื่อเก็บ รายได้ทั้งหมด" style="whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-2890" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LePeqE8UnKB5lblaura4-9" target="LePeqE8UnKB5lblaura4-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-9" value="รับค่า employees_id จากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="302.5" y="-2630" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LePeqE8UnKB5lblaura4-11" target="LePeqE8UnKB5lblaura4-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-11" value="รับค่า working_hrs จากผู้ใช้เพื่อไปคำนวณหารายได้ทั้งหมด" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="261.25" y="-2490" width="327.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LePeqE8UnKB5lblaura4-13" target="LePeqE8UnKB5lblaura4-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-13" value="รับค่า salary_hrs&amp;nbsp;จากผู้ใช้เพื่อไปคำนวณหารายได้ทั้งหมด" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="261.25" y="-2350" width="327.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LePeqE8UnKB5lblaura4-15" target="LePeqE8UnKB5lblaura4-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-15" value="นำตัวแปร working_hes มาคูณกับ ตัวแปร salary_hrs และนำไปเก็บไว้ในตัวแปร salary" style="whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="282.5" y="-2210" width="285" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LePeqE8UnKB5lblaura4-19" target="LePeqE8UnKB5lblaura4-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-19" value="สร้างตัวแปร salary_hrs&amp;nbsp;เพื่อเก็บ รายได้ต่อชั่วโมง" style="whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-2750" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LePeqE8UnKB5lblaura4-24" target="LePeqE8UnKB5lblaura4-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-24" value="แสดงผล&lt;div&gt;ตัวแปรempolyees_id และ salary&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="262.5" y="-2070" width="325" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LePeqE8UnKB5lblaura4-26" target="LePeqE8UnKB5lblaura4-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-26" value="Employees ID = ............&amp;nbsp;&lt;div&gt;Salary = U$ 999,999.00&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="262.5" y="-1930" width="325" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LePeqE8UnKB5lblaura4-28" value="จบ" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="327.5" y="-1790" width="195" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

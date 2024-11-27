@@ -1,0 +1,61 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="jPK3mtU3912ozePmfI7T">
+    <mxGraphModel dx="715" dy="3926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GKYSavb73CZCJ6DlVbEL-1" target="GKYSavb73CZCJ6DlVbEL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-1" value="เริ่ม" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="-3270" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GKYSavb73CZCJ6DlVbEL-2" target="GKYSavb73CZCJ6DlVbEL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-2" value="กำหนดตัวแปร day เพื่อรับจำนวนวันที่กรอก" style="whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="328.13" y="-3140" width="193.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GKYSavb73CZCJ6DlVbEL-4" target="GKYSavb73CZCJ6DlVbEL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-4" value="รับค่า จำนวนวันจากผู้ใช้เก็บไว้ในตัวแปร day" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="306.03000000000003" y="-3010" width="237.96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GKYSavb73CZCJ6DlVbEL-6" target="GKYSavb73CZCJ6DlVbEL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-6" value="นำจำนวนวันที่รับมาไปคำนวน" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="-2870" width="185.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GKYSavb73CZCJ6DlVbEL-8" target="GKYSavb73CZCJ6DlVbEL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-8" value="วัน * 86400 จะเท่ากับ จำนวน วินาที" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333.13" y="-2660" width="185.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GKYSavb73CZCJ6DlVbEL-10" target="GKYSavb73CZCJ6DlVbEL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-10" value="สร้างตัวแปร seconds เพื่อเก็บค่าที่คำนวณ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="328.13" y="-2760" width="195.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GKYSavb73CZCJ6DlVbEL-14" target="GKYSavb73CZCJ6DlVbEL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-14" value="แสดงค่าจำนวนวินาทีในตัวแปร&amp;nbsp;&lt;div&gt;seconds&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="324.06" y="-2530" width="201.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GKYSavb73CZCJ6DlVbEL-16" target="GKYSavb73CZCJ6DlVbEL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-16" value="8 days = 691200 seconds" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="324.08" y="-2390" width="201.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GKYSavb73CZCJ6DlVbEL-18" value="จบ" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="335.63" y="-2250" width="180" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
