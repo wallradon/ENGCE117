@@ -9,17 +9,13 @@ void GetMatrix( int *value[], int *row, int *col ) ;
 int main() {
     int *data, m = 0, n = 0 ;//m=row,n=col
     GetMatrix( &data, &m, &n ) ;
-    
-
-    if ( m != 0 && n != 0) {   
-        printf( "Matrix (%dx%d):\n", m, n ) ;
-        for ( int i = 0 ; i < m ; i++ ) {
-            for ( int j = 0 ; j < n ; j++ ) {
-                printf( "%d ", data[i * n + j] ) ;
-            }//end for
-            printf( "\n" ) ;
+    printf( "Matrix (%dx%d):\n", m, n ) ;
+    for ( int i = 0 ; i < m ; i++ ) {
+        for ( int j = 0 ; j < n ; j++ ) {
+            printf( "%d ", data[i * n + j] ) ;
         }//end for
-    }
+        printf( "\n" ) ;
+    }//end for
     free( data ) ; // คืนหน่วยความจำ
     return 0 ;
 }//end function
@@ -32,21 +28,22 @@ void GetMatrix( int *value[], int *row, int *col ) {
     printf( "Enter the number of columns: " ) ;
     scanf( "%d", col ) ;
 
-
     if ( *row == 0 && *col ==  0 )
     {
         printf( "Matrix: \n(empty)\n" ) ;
-    }else if ( *row == 0 && *col != 0 || *col == 0 && *row != 0 ) {
-         printf( "Error: Invalid matrix dimensions." ) ;
+        exit( 1 ) ;
+    }else if ( *row == 0 || *col == 0) {
+        printf( "Error: Invalid matrix dimensions." ) ;
+        exit( 1 ) ;
     }else {
     // malloc
         *value = ( int * )malloc( ( *row ) * ( *col ) * sizeof( int ) ) ; //sizeof( int ) = 4 ไบต์ 
         // รับค่า
         printf( "Enter the matrix elements: " ) ;
-        for ( int i = 0 ; i < (*row) * (*col) ; i++ ) { // max i = ( (*row) * (*col) ) - 1 
+        for ( int i = 0 ; i < ( *row ) * ( *col ) ; i++ ) { // max i = ( (*row) * (*col) ) - 1 
             scanf( "%d", &(*value)[i] ) ;
             entercheck = getchar() ; //เชค enter
-            if ( entercheck == '\n' && i != *col - 1 ) {
+            if ( entercheck == '\n' && i != ( *row ) * ( *col ) - 1 ) {
                 printf( "Error: Incorrect number of elements." ) ;
                 exit( 1 ) ;
             }//end if 
