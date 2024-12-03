@@ -59,24 +59,24 @@ Error: Invalid matrix input
 #include <stdio.h>
 #include <stdlib.h>
 
-int *GetMatrix(int *row, int *col) ;
+int *GetMatrix( int *row, int *col ) ;
 
 int main() {
-    int *data, m, n;
+    int *data, m, n ;
 
     // เรียกใช้ GetMatrix
-    data = GetMatrix(&m, &n);
+    data = GetMatrix( &m, &n ) ;
 
     // แสดงผล matrix
     printf( "\n-------output-------\n" ) ;
     printf( "Enter number of rows and columns: %d %d \n", m, n ) ;
-    printf("Enter matrix elements: \n");
-    for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
-            printf("%d ", data[i * n + j]);
-        }
-        printf("\n");
-    }
+    printf( "Enter matrix elements: \n" ) ;
+    for ( int i = 0 ; i < m ; i++ ) {
+        for ( int j = 0; j < n; j++ ) {
+            printf( "%d ", data[i * n + j] ) ;
+        }//end for
+        printf( "\n" ) ;
+    }//end for
 
     // คืนหน่วยความจำ
     delete[] data ;
@@ -106,13 +106,13 @@ int *GetMatrix( int *row, int *col ) {
         for ( int j = 0 ; j < *col ; j++ ) {
             // printf("a[%d][%d]: ", i, j);
             scanf( "%d", &data[ i * (*col) + j ] ) ;
-            char ch = getchar() ;
-            if ( ch == '\n' && j != *col - 1 ) {
-                printf("Error: Invalid matrix input\n");
-                exit(1);
-            }
-        }
-    }
+            char entercheck = getchar() ;
+            if ( entercheck == '\n' && j != *col - 1 ) {
+                printf( "Error: Invalid matrix input\n" ) ;
+                exit( 1 ) ;
+            }//end if
+        }//end for
+    }//end for
 
     return data ;
-}
+}//end function
