@@ -31,8 +31,8 @@ int main() {
 }//end function
 
 void explode( char str1[], char splitter, char str2[][10], int *count ) {
-    int index = 0, *count = 0, pos = 0 ;   
-
+    int index = 0, pos = 0 ;
+    *count = 0 ;   
     for ( int i = 0 ; str1[i] != '\0' ; i++ ) {//runค่าใน str1
         if ( str1[i] == splitter ) {// ถ้าเจอ splitter
             if ( pos > 0 ) {    
@@ -41,15 +41,13 @@ void explode( char str1[], char splitter, char str2[][10], int *count ) {
                 pos = 0 ; 
             }//end if
         } else {
-            str2[index][pos++] = str1[i] ;
+            str2[index][pos++] = str1[i] ; //เอาค่าไปใส่ในช่อง
         }//end if
     }//end for
 
-    if (pos > 0) {
+    if (pos > 0) { //จบหรือยัง
         str2[index][pos] = '\0' ;
         index++ ;
     }//end if
-
     *count = index ;
-
 }//end function
