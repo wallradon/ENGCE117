@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="MjfRBXj7kjQFLWbhbwdf">
+    <mxGraphModel dx="2503" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YvEvzQ0dnaz_PwDM268-1" target="9YvEvzQ0dnaz_PwDM268-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-1" value="&lt;font&gt;เริ่ม&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="333" y="50" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YvEvzQ0dnaz_PwDM268-6" target="9YvEvzQ0dnaz_PwDM268-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-6" value="กำหนดตัวแปร float celsius, fahrenheit" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="293.25" y="210" width="264.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YvEvzQ0dnaz_PwDM268-10" target="9YvEvzQ0dnaz_PwDM268-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-10" value="&lt;font&gt;รับค่า องศาเซลเซียส เก็บไว้ใน celsius&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="279.25" y="395" width="292.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YvEvzQ0dnaz_PwDM268-12" target="9YvEvzQ0dnaz_PwDM268-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-12" value="ตัวแปร fahrebheit = celsius * 1.8 + 32" style="whiteSpace=wrap;html=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="294.75" y="557.5" width="263" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YvEvzQ0dnaz_PwDM268-14" target="9YvEvzQ0dnaz_PwDM268-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-14" value="แสดงค่าในตัวแปร fahrebheit&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="264.38" y="700" width="323.75" height="108.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YvEvzQ0dnaz_PwDM268-16" target="9YvEvzQ0dnaz_PwDM268-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-16" value="36 degree Celsius = 96.8 degree Fahrenheit" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="248.44" y="888.75" width="355.62" height="111.25" as="geometry" />
+        </mxCell>
+        <mxCell id="9YvEvzQ0dnaz_PwDM268-18" value="&lt;font&gt;เริ่ม&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="333.75" y="1050" width="185" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
