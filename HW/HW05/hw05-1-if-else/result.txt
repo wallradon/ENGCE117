@@ -1,0 +1,5 @@
+enter char :  L M Y K
+K Y M L
+
+enter char :  A B C D
+D C B A

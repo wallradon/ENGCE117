@@ -1,0 +1,74 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="6cDtbopgbhzsg-oRYWBi">
+    <mxGraphModel dx="3004" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HInFghLuNLaPB8LODGVZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HInFghLuNLaPB8LODGVZ-4" target="HInFghLuNLaPB8LODGVZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-4" value="เริ่ม" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-60" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HInFghLuNLaPB8LODGVZ-5" target="HInFghLuNLaPB8LODGVZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-5" value="กำหนดตัวแปรชนิด char มา 4 ตัว&lt;div&gt;ch1,ch2,ch3,ch4&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="100" width="220" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HInFghLuNLaPB8LODGVZ-9" target="HInFghLuNLaPB8LODGVZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-9" value="รับค่าตัวอักษรไปใส่ในตัวแปร 1ตัวต่อ1ตัวแปร&lt;div&gt;A B C D&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="260" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="137.5" y="440" width="282.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="HInFghLuNLaPB8LODGVZ-17" source="HInFghLuNLaPB8LODGVZ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122.5" y="615" as="targetPoint" />
+            <mxPoint x="245" y="50.000000000000114" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="333" y="55" />
+              <mxPoint x="333" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-11" value="ในตัวแปรทั้ง 4 มีตัวอักษรข้างในมั้ย" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="HInFghLuNLaPB8LODGVZ-17">
+          <mxGeometry width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-13" value="มี" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HInFghLuNLaPB8LODGVZ-17">
+          <mxGeometry x="52.5" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-15" value="ไม่มี" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HInFghLuNLaPB8LODGVZ-17">
+          <mxGeometry x="222.5" y="20" width="57.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HInFghLuNLaPB8LODGVZ-18" target="HInFghLuNLaPB8LODGVZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-18" value="แสดงค่า&amp;nbsp;&lt;div&gt;ch4,ch3,ch2,ch1&lt;br&gt;ตางลำดับ&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="620" width="260" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HInFghLuNLaPB8LODGVZ-11" target="HInFghLuNLaPB8LODGVZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HInFghLuNLaPB8LODGVZ-20" target="HInFghLuNLaPB8LODGVZ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-20" value="แสดงค่า&amp;nbsp;&lt;div&gt;ch4,ch3,ch2,ch1&lt;br&gt;ตางลำดับ&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="777.5" width="260" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HInFghLuNLaPB8LODGVZ-22" target="HInFghLuNLaPB8LODGVZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-22" value="D C B A" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="935" width="260" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HInFghLuNLaPB8LODGVZ-24" value="จบ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1090" width="260" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
