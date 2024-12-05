@@ -19,6 +19,7 @@
 
 int main() {
     char  hex[50] ; 
+    int zerodel = 0 ;
     printf( "User input hex : " ) ;
     scanf( "%s", hex ) ;
     int len = strlen( hex ) ;
@@ -31,25 +32,61 @@ int main() {
             printf( "0000" ) ; 
             break ;
         case '1':
-            printf( "0001" ) ; 
-            break ;
+            if ( zerodel == 0 ) {
+                printf( "1" ) ; 
+                zerodel = 1 ;
+            }else{
+                printf( "0001" ) ; 
+               
+            }//end if
+             break ;
         case '2':
-            printf( "0010" ) ; 
-            break ;
+            if ( zerodel == 0 ) {
+                    printf( "10" ) ; 
+                    zerodel = 1 ;
+                }else{
+                    printf( "0010" ) ; 
+                }//end if
+                break ;
         case '3':
-            printf( "0011" ) ; 
-            break ;
+            if ( zerodel == 0 ) {
+                    printf( "11" ) ; 
+                    zerodel = 1 ;
+                }else{
+                    printf( "0011" ) ;
+                }//end if
+                break ;
         case '4':
-            printf( "0100" ) ; 
+            if ( zerodel == 0 ) {
+                    printf( "100" ) ; 
+                    zerodel = 1 ;
+                }else{
+                    printf( "0100" ) ;
+                }//end if
             break ;
         case '5':
-            printf( "0101" ) ; 
+        if ( zerodel == 0 ) {
+                    printf( "101" ) ; 
+                    zerodel = 1 ;
+                }else{
+                    printf( "0101" ) ;
+                }//end if
             break ;
         case '6':
-            printf( "0110" ) ; 
+            if ( zerodel == 0 ) {
+                    printf( "110" ) ; 
+                    zerodel = 1 ;
+                }else{
+                    printf( "0110" ) ;
+                }//end if
             break ;
         case '7':
-            printf( "0111" ) ; 
+            if ( zerodel == 0 ) {
+                    printf( "111" ) ; 
+                    zerodel = 1 ;
+                } else {
+                    printf( "0111" ) ;
+                }//end if
             break ;
         case '8':
             printf( "1000" ) ; 
@@ -77,4 +114,5 @@ int main() {
             break ;
         }
     }//end for
+
 }//end function
