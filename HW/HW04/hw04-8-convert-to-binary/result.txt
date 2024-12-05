@@ -1,0 +1,5 @@
+User input hex : FB
+11111011
+
+User input hex : 19
+11001
