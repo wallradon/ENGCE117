@@ -1,0 +1,7 @@
+input : -90
+
+ Negative
+ 
+ input : 49
+
+ Positive
