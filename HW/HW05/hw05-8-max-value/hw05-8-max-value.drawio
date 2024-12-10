@@ -1,0 +1,124 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="CsKRAwJR3TSypYkYut07">
+    <mxGraphModel dx="6008" dy="2740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X9Xue8OuUsxz-AgJ4byZ-1" target="X9Xue8OuUsxz-AgJ4byZ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-1" value="เริ่ม" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="325" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X9Xue8OuUsxz-AgJ4byZ-2" target="X9Xue8OuUsxz-AgJ4byZ-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-2" value="กำหนดตัวแปร num1, num2, num3" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9Xue8OuUsxz-AgJ4byZ-4" target="jJiO212ROFI-YR2m6ZTe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-4" value="รับค่าจากผู้ใช้ 3 ค่า เก็บไว้ที่&lt;div&gt;num1, num2, num3&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="315" y="600" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="980" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-1" target="jJiO212ROFI-YR2m6ZTe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-1" value="&lt;div&gt;แสดงค่า&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;num1, num2, num3&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="315" y="700" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-3" target="jJiO212ROFI-YR2m6ZTe-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-3" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1st Number = 12&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2nd Number = 2&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3rd Number = 52&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="315" y="800" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-7" target="jJiO212ROFI-YR2m6ZTe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-7" value="num1 + num2 + num3 != 0" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="910" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-11" target="jJiO212ROFI-YR2m6ZTe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-11" target="jJiO212ROFI-YR2m6ZTe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-11" value="num1 &amp;gt; num2 &amp;amp;&amp;amp; num1 &amp;gt; num3" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1040" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-14" target="jJiO212ROFI-YR2m6ZTe-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-14" value="The 1rd Number is the greatest among three" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="1170" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-16" target="jJiO212ROFI-YR2m6ZTe-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-16" target="jJiO212ROFI-YR2m6ZTe-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-16" value="num2 &amp;gt; num1 &amp;amp;&amp;amp; num2 &amp;gt; num3" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1040" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-17" target="jJiO212ROFI-YR2m6ZTe-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-17" value="The 2rd Number is the greatest among three" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="1170" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-20" target="jJiO212ROFI-YR2m6ZTe-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-20" value="num3 &amp;gt; num2 &amp;amp;&amp;amp; num3 &amp;gt; num1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1040" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-21" target="jJiO212ROFI-YR2m6ZTe-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-21" value="The 3rd Number is the greatest among three" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="872.5" y="1170" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-24" target="jJiO212ROFI-YR2m6ZTe-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-24" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-27" target="jJiO212ROFI-YR2m6ZTe-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-31" target="jJiO212ROFI-YR2m6ZTe-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-31" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-34" value="จบ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1370" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,18 @@
+Enter number 1 : 12
+Enter number 2 : 25
+Enter number 3 : 52
+
+1st Number = 12
+2nd Number = 25 
+3rd Number = 52 
+The 3rd Number is the greatest among three
+
+
+Enter number 1 : 89
+Enter number 2 : 54
+Enter number 3 : 72
+
+1st Number = 89
+2nd Number = 54
+3rd Number = 72
+The 1rd Number is the greatest among three
