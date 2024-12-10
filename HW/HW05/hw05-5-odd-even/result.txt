@@ -1,0 +1,4 @@
+input : 15
+15 is an even integer
+input : -22 
+-22 is an even integer
