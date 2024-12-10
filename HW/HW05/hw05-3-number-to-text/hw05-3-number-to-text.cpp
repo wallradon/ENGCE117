@@ -18,7 +18,7 @@
 #include<stdio.h>
 
 int main(){
-    int num = 0, count = 0 ;
+    int num = 0 ;
     printf( "Enter a number (0-30): " ) ;
     scanf( "%d", &num ) ;
     if ( num < 0 || num > 30 ) {
