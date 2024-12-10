@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="CsKRAwJR3TSypYkYut07">
+    <mxGraphModel dx="2003" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X9Xue8OuUsxz-AgJ4byZ-1" target="X9Xue8OuUsxz-AgJ4byZ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-1" value="เริ่ม" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="325" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X9Xue8OuUsxz-AgJ4byZ-2" target="X9Xue8OuUsxz-AgJ4byZ-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-2" value="กำหนดตัวแปร x1 x2 y1 y2" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="300" y="470" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9Xue8OuUsxz-AgJ4byZ-4" target="jJiO212ROFI-YR2m6ZTe-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-4" value="รับค่าพิกัด จากผู้ใช้&amp;nbsp; 2 พิกัด&lt;div&gt;x1 x2 y1 y2&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="315" y="590" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="980" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-34" value="จบ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325" y="890" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-36" target="jJiO212ROFI-YR2m6ZTe-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-36" value="&lt;div&gt;midX = ( x1 + x2 ) / 2.0 ;&lt;/div&gt;&lt;div&gt;midY = ( y1 + y2 ) / 2.0 ;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="700" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-39" target="jJiO212ROFI-YR2m6ZTe-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-39" value="&lt;div&gt;แสดงค่า midx midy&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="315" y="790" width="190" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
