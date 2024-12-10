@@ -28,6 +28,6 @@ int main() {
     {
         printf( "%d is an even integer", num ) ;
     } else { 
-        printf( "%d is an even integer", num ) ;
+        printf( "%d is an odd integer", num ) ;
     }//end if
 } //end function
