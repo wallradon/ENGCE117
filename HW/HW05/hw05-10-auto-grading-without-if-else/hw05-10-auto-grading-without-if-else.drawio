@@ -1,0 +1,215 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="CsKRAwJR3TSypYkYut07">
+    <mxGraphModel dx="1878" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X9Xue8OuUsxz-AgJ4byZ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="980" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-42" target="jJiO212ROFI-YR2m6ZTe-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-42" value="เริ่ม" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-44" target="jJiO212ROFI-YR2m6ZTe-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-44" value="ตั้งตัวแปร score" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="720" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-48" target="jJiO212ROFI-YR2m6ZTe-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404.9999999999998" y="909.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-48" value="รับค่า score จากผู้ใช้" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="820" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-52" target="jJiO212ROFI-YR2m6ZTe-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-52" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; line-height: 27px; white-space: pre;&quot;&gt;score / 5&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="295" y="930" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-53" target="jJiO212ROFI-YR2m6ZTe-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-53" target="jJiO212ROFI-YR2m6ZTe-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-53" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; white-space: pre; background-color: rgb(30, 30, 30);&quot;&gt;score = 10&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1019.9999999999999" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-55" target="jJiO212ROFI-YR2m6ZTe-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-55" value="แสดงค่า D !" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="1200" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-57" target="jJiO212ROFI-YR2m6ZTe-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-57" target="jJiO212ROFI-YR2m6ZTe-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-57" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; white-space: pre; background-color: rgb(30, 30, 30);&quot;&gt;score = 11&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1020" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-58" target="jJiO212ROFI-YR2m6ZTe-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-58" value="แสดงค่า D+ !" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="637.5" y="1200" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-59" target="jJiO212ROFI-YR2m6ZTe-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-59" target="jJiO212ROFI-YR2m6ZTe-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-59" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; white-space: pre; background-color: rgb(30, 30, 30);&quot;&gt;score = 12&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1020" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-60" target="jJiO212ROFI-YR2m6ZTe-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-60" value="แสดงค่า C !" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1007.5" y="1200" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-61" target="jJiO212ROFI-YR2m6ZTe-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-61" target="jJiO212ROFI-YR2m6ZTe-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-61" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; white-space: pre; background-color: rgb(30, 30, 30);&quot;&gt;score = 13&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1020" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-62" target="jJiO212ROFI-YR2m6ZTe-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-62" value="แสดงค่า C+ !" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1347.5" y="1200" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-63" target="jJiO212ROFI-YR2m6ZTe-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-63" target="jJiO212ROFI-YR2m6ZTe-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-63" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; white-space: pre; background-color: rgb(30, 30, 30);&quot;&gt;score = 14&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1020" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-64" target="jJiO212ROFI-YR2m6ZTe-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-64" value="แสดงค่า B !" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1677.5" y="1200" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-65" target="jJiO212ROFI-YR2m6ZTe-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-65" target="jJiO212ROFI-YR2m6ZTe-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-65" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; white-space: pre; background-color: rgb(30, 30, 30);&quot;&gt;score = 15&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="1020" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-66" target="jJiO212ROFI-YR2m6ZTe-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-66" value="แสดงค่า B+ !" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2007.5" y="1200" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-67" target="jJiO212ROFI-YR2m6ZTe-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-67" target="jJiO212ROFI-YR2m6ZTe-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-67" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; white-space: pre; background-color: rgb(30, 30, 30);&quot;&gt;score = 20&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="1020" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-68" target="jJiO212ROFI-YR2m6ZTe-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-68" value="แสดงค่า A !" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2347.5" y="1200" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-70" target="jJiO212ROFI-YR2m6ZTe-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-70" value="แสดงค่า F !" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="1055" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-84" target="jJiO212ROFI-YR2m6ZTe-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-84" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-87" target="jJiO212ROFI-YR2m6ZTe-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-87" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="735" y="1320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-89" target="jJiO212ROFI-YR2m6ZTe-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-89" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="1320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-91" target="jJiO212ROFI-YR2m6ZTe-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-91" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="1320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-93" target="jJiO212ROFI-YR2m6ZTe-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-93" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1775" y="1320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1815" y="1339.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-95" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2105" y="1320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-98" target="jJiO212ROFI-YR2m6ZTe-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-98" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2445" y="1320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJiO212ROFI-YR2m6ZTe-101" target="jJiO212ROFI-YR2m6ZTe-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-101" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2777.5" y="1320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJiO212ROFI-YR2m6ZTe-110" value="จบ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1460" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
