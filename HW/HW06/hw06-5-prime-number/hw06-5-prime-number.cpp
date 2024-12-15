@@ -29,19 +29,16 @@ int main() {
         int Prime = 1 ; 
 
         for (int j = 2 ; j < i ; j++ ) {
-
+            
             if ( i % j == 0 ) {
+                // printf( "for j = %d\n", j ) ;
                 Prime = 0 ; // ไม่ใช่จำนวนเฉพาะ
                 break ;
             }//end if
-
         }//end for
-        if ( Prime ) {
-
+        if ( Prime == 1 ) {
             printf( "%d ", i ) ;
-
         }//end if
-
     }//end for
     printf( "\n" ) ; 
 
