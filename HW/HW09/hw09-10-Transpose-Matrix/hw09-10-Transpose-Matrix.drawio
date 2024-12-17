@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="ZFWVXQ1Z0pBYEthVD5IX">
+    <mxGraphModel dx="1502" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8qHCZE8XLDsl83MSMVz2-1" target="Bdj1opyaJ_gifpP-QEtN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8qHCZE8XLDsl83MSMVz2-1" value="เริ่ม" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="329" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bdj1opyaJ_gifpP-QEtN-1" target="Bdj1opyaJ_gifpP-QEtN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-1" value="&lt;div&gt;รับจำนวนแถวและคอลัมน์จากผู้ใช้&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="296.5" y="180" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bdj1opyaJ_gifpP-QEtN-4" target="Bdj1opyaJ_gifpP-QEtN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-4" value="&amp;nbsp;สร้างอาเรย์ arr[rows][cols] และ transpose[cols][rows]" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="280" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bdj1opyaJ_gifpP-QEtN-6" target="Bdj1opyaJ_gifpP-QEtN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-6" value="&lt;div&gt;&amp;nbsp;รับค่าจากผู้ใช้และกรอกลงในอาเรย์ arr&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="296.5" y="380" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bdj1opyaJ_gifpP-QEtN-8" target="Bdj1opyaJ_gifpP-QEtN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-8" value="&lt;div&gt;&amp;nbsp;แสดงอาเรย์ arr&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="296.5" y="470" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bdj1opyaJ_gifpP-QEtN-10" target="Bdj1opyaJ_gifpP-QEtN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-10" value="&amp;nbsp;ทำการ Transpose อาเรย์" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="580" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bdj1opyaJ_gifpP-QEtN-13" target="Bdj1opyaJ_gifpP-QEtN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-13" value="&lt;div&gt;แสดงอาเรย์ transpose&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="296.5" y="700" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bdj1opyaJ_gifpP-QEtN-15" value="จบ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="329" y="810" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
