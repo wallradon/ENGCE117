@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="ZFWVXQ1Z0pBYEthVD5IX">
+    <mxGraphModel dx="715" dy="326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="icYldf21KDmBJMiBbyz4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8qHCZE8XLDsl83MSMVz2-1" target="icYldf21KDmBJMiBbyz4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8qHCZE8XLDsl83MSMVz2-1" value="เริ่ม" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="330" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="icYldf21KDmBJMiBbyz4-1" target="icYldf21KDmBJMiBbyz4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-1" value="รับจำนวนชุดตัวเลข" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="440" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="icYldf21KDmBJMiBbyz4-3" target="icYldf21KDmBJMiBbyz4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-3" value="รับค่า ตัวเลขตามจำนวน" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="580" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="icYldf21KDmBJMiBbyz4-6" target="icYldf21KDmBJMiBbyz4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-6" value="นำเลขทุกตัวมารวมกัน" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="710" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="icYldf21KDmBJMiBbyz4-8" target="icYldf21KDmBJMiBbyz4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-8" value="นำเลขที่รวมมาหาร จำนวนชุด" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="850" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="icYldf21KDmBJMiBbyz4-10" target="icYldf21KDmBJMiBbyz4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-10" value="&lt;div&gt;แสดงค่าผลรวม และค่าเฉลี่ย&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="980" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="icYldf21KDmBJMiBbyz4-12" value="จบ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1140" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

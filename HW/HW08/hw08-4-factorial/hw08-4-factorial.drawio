@@ -1,0 +1,122 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="kNmYJT_XooE8WOU3MJ6J">
+    <mxGraphModel dx="1036" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-1" target="KE83nUnZGkS_2X-1oOVv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-1" value="เริ่ม" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-2" target="KE83nUnZGkS_2X-1oOVv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-2" value="&amp;nbsp;กำหนดค่า n = 0, i = 0, sum = 1" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="430" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-4" target="KE83nUnZGkS_2X-1oOVv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-4" value="&lt;div&gt;&amp;nbsp;รับค่า n จากผู้ใช้&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="530" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-6" target="KE83nUnZGkS_2X-1oOVv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-6" value="&lt;div&gt;แสดงข้อความ n! =&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="650" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-9" target="KE83nUnZGkS_2X-1oOVv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-9" value="กำหนดค่า i = n" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="770" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-11" target="KE83nUnZGkS_2X-1oOVv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-11" target="KE83nUnZGkS_2X-1oOVv-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="945" />
+              <mxPoint x="570" y="1730" />
+              <mxPoint x="415" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-11" value="&amp;nbsp;i &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="879.9999999999999" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-13" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-14" target="KE83nUnZGkS_2X-1oOVv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-14" value="คูณ sum ด้วย i" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1050" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-16" target="KE83nUnZGkS_2X-1oOVv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-16" value="&lt;div&gt;&amp;nbsp;แสดงค่า i&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="1150" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-18" target="KE83nUnZGkS_2X-1oOVv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="1335" />
+              <mxPoint x="570" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-18" value="&amp;nbsp;i &amp;gt; 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1270" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-20" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-21" target="KE83nUnZGkS_2X-1oOVv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-21" value="&lt;div&gt;&amp;nbsp;พิมพ์ &quot;x&quot;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="1440" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="415" y="1680" />
+              <mxPoint x="260" y="1680" />
+              <mxPoint x="260" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-23" value="&amp;nbsp;ลดค่า i ลง 1" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1600" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-25" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KE83nUnZGkS_2X-1oOVv-28" target="KE83nUnZGkS_2X-1oOVv-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-28" value="&lt;div&gt;&amp;nbsp;แสดงผลลัพธ์ n! = sum&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="1830" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-29" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KE83nUnZGkS_2X-1oOVv-31" value="จบ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1960" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

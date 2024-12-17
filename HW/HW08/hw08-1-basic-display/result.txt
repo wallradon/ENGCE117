@@ -1,0 +1,8 @@
+Enter value n : 6
+Enter value 1 : 19
+Enter value 2 : 7
+Enter value 3 : 23
+Enter value 4 : 96
+Enter value 5 : 77
+Enter value 6 : 16
+SUM = 238Avg = 39.67
