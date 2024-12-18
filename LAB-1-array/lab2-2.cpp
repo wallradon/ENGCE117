@@ -11,7 +11,7 @@ int main() {
     return 0 ;
 }//end function
 
-char* reverse( char str1[] ) {
+char *reverse( char str1[] ) {
     char *out = new char[20] ;
     int counts = strlen( str1 ) ;
     for ( int i = 0 ; i < counts ; i++ )

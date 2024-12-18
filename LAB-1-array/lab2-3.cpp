@@ -11,7 +11,6 @@
     }//end function
 */
 #include <stdio.h>
-#include <string.h>
 
 void explode( char str1[], char splitter, char str2[][10], int *count ) ;
 
@@ -19,8 +18,8 @@ int main() {
     char out[20][10] ;  // อาร์เรย์เก็บคำที่แยกได้
     int num ;           // เก็บจำนวนคำที่แยกได้
     
-    char text[] = "   Hello   World  " ;  
-    explode( text, '   ', out, &num ) ;
+    char text[] = "I/Love/You" ;  
+    explode( text, '/', out, &num ) ;
 
     for ( int i = 0; i < num; i++ ) {
         printf( "str2[%d] = \"%s\"\n", i, out[i] ) ;
@@ -32,21 +31,22 @@ int main() {
 void explode( char str1[], char splitter, char str2[][10], int *count ) {
     int index = 0, pos = 0 ;
     *count = 0 ;   
-    for ( int i = 0 ; str1[i] != '\0' ; i++ ) {//runค่าใน str1
-        if ( str1[i] == splitter ) {// ถ้าเจอ splitter
+    for ( int i = 0 ; str1[i] != '\0' ; i++ ) {//ค่าใน str1
+        if ( str1[i] == splitter ) {// splitter
             if ( pos > 0 ) {    
                 str2[index][pos] = '\0' ; 
-                index++ ; //ย้าย ช่อง 
+                index++ ; //ย้ายแถว 
                 pos = 0 ; 
             }//end if
         } else {
-            str2[index][pos++] = str1[i] ; //เอาค่าไปใส่ในช่อง
+            str2[index][pos] = str1[i] ; //เอาค่าไปใส่ในช่อง
+            pos++ ;
+            printf("index = %d, pos = %d \n", index, pos ) ;
         }//end if
     }//end for
 
-    if (pos > 0) { //จบหรือยัง
+    if (pos > 0) { //จบยัง
         str2[index][pos] = '\0' ;
-        index++ ;
+        *count = index += 1 ;
     }//end if
-    *count = index ;
 }//end function
