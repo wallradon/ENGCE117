@@ -96,8 +96,6 @@ int *GetMatrix( int *row, int *col ) {
         exit( 1 ) ;
     }//end if
     
-
-    // จัดสรรหน่วยความจำด้วย new
     int *data = new int[ ( *row ) * ( *col ) ] ;
 
     // รับค่าจากผู้ใช้

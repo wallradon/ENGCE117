@@ -1,56 +1,47 @@
-/*เขียนคำสั่งในการสร้างและเรียกใช้ฟังก์ชัน GetMatrix() 
-เพื่อรับจำนวนแถว คอลัมน์ และค่าของแต่ละสมาชิกในเมทริกซ์จากคีย์บอร์ด  ตามโปรโตไทป์ต่อไปนี้*/
+/*
+เขียนคำสั่งในการสร้างและเรียกใช้ฟังก์ชัน GetMatrix() 
+เพื่อรับจำนวนแถว คอลัมน์ และค่าของแต่ละสมาชิกในเมทริกซ์จากคีย์บอร์ด  ตามโปรโตไทป์ต่อไปนี้
+#include <stdio.h>
+
+void GetMatrix( int value[], int *row, int *col ) ;
+
+    int main() {
+        int *data, m, n ;
+        GetMatrix( &data, &m, &n ) ;
+        return 0 ;
+    }//end function
+*/
 
 #include <stdio.h>
-#include <stdlib.h> //  malloc , free
 
-void GetMatrix( int *value[], int *row, int *col ) ;
+void GetMatrix( int value[], int *row, int *col ) ;
 
 int main() {
-    int *data, m = 0, n = 0 ;//m=row,n=col
-    GetMatrix( &data, &m, &n ) ;
-    printf( "Matrix (%dx%d):\n", m, n ) ;
-    for ( int i = 0 ; i < m ; i++ ) {
-        for ( int j = 0 ; j < n ; j++ ) {
+    int data[99], m = 0, n = 0  ;
+    GetMatrix( data, &m, &n ) ;
+
+    printf("Matrix_data:\n");
+    for ( int i = 0; i < m; i++ ) {
+        for ( int j = 0; j < n; j++ ) {
             printf( "%d ", data[i * n + j] ) ;
         }//end for
         printf( "\n" ) ;
     }//end for
-    free( data ) ; // คืนหน่วยความจำ
+
     return 0 ;
 }//end function
 
-void GetMatrix( int *value[], int *row, int *col ) {
-    char entercheck ;
-    // รับจำนวนแถวและคอลัมน์จากผู้ใช้
-    printf( "Enter the number of rows: " ) ;
-    scanf( "%d", row ) ;
-    printf( "Enter the number of columns: " ) ;
-    scanf( "%d", col ) ;
-
-    if ( *row == 0 && *col ==  0 )
-    {
-        printf( "Matrix: \n(empty)\n" ) ;
-        exit( 1 ) ;
-    }else if ( *row == 0 || *col == 0) {
-        printf( "Error: Invalid matrix dimensions." ) ;
-        exit( 1 ) ;
-    }else {
-    // malloc
-        *value = ( int * )malloc( ( *row ) * ( *col ) * sizeof( int ) ) ; //sizeof( int ) = 4 ไบต์ 
-        // รับค่า
-        printf( "Enter the matrix elements: " ) ;
-        for ( int i = 0 ; i < ( *row ) * ( *col ) ; i++ ) { // max i = ( (*row) * (*col) ) - 1 
-            scanf( "%d", &(*value)[i] ) ;
-            entercheck = getchar() ; //เชค enter
-            if ( entercheck == '\n' && i != ( *row ) * ( *col ) - 1 ) {
-                printf( "Error: Incorrect number of elements." ) ;
-                exit( 1 ) ;
-            }//end if 
+void GetMatrix( int *value, int *row, int *col ) {
+    printf( "how many rows, cols : " ) ;
+    scanf( "%d %d", row, col ) ;
+    printf( "Enter matrix values:\n" ) ;
+        for ( int i = 0 ; i < (*row) * (*col) ; i++ ) 
+            scanf( "%d", &value[i] ) ;
+    printf("Matrix_val:\n");
+    for ( int n = 0 ; n < *row ; n++ ) {
+        for ( int j = 0 ; j < *col ; j++ ) {
+            printf( "%d ", value[n * (*row) + j ] ) ;
         }//end for
-    }//end if
-    
-    
- 
-
+        printf( "\n" ) ;
+    }//end for
 }//end function

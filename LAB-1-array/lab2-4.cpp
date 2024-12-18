@@ -47,7 +47,6 @@ void explode( char str1[], char splitters[], char str2[][15], int *count ) {
     int index = 0, pos = 0, is_splitter = 0 ;
     *count = 0 ;   
     int splitter_count = strlen(splitters) ;
-    // printf( "splitter_count = %d\n", splitter_count ) ;
     for ( int i = 0 ; str1[i] != '\0' ; i++ ) {//runค่าใน str1
         is_splitter = 0 ;
         for (int j = 0; j < splitter_count ; j++ )

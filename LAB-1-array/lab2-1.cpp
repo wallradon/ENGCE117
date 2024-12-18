@@ -24,16 +24,18 @@ int main() {
 void reverse( char str1[], char str2[] ) {
 
     int counts = strlen( str1 ) ;
-    printf( "strlen = %d\n ", counts ) ;
+    // printf( "strlen = %d\n ", counts ) ;
     // printf("test");
     for ( int i = 0 ; i < counts ; i++ )
     {
         str2[i] = str1[counts - i - 1]  ;    
     }//end for
+
     counts = strlen( str2 ) ;
+    
     for (int p = 0 ; p < counts ; p++ )
     {
         printf( "%c" , str2[p] );
-    }//end for
+    }
     printf( "\n" ) ;
 }//end function

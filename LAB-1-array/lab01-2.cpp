@@ -1,3 +1,13 @@
+// #include <stdio.h>
+// #include <string.h>
+
+// void GetSet( int [], int * ) ;
+
+// int main() {
+//      int *data, num ;
+//      GetSet( &data, &num ) ;
+//      return 0 ;
+// }//end function
 #include <stdio.h>
 #include <string.h>
 
@@ -10,11 +20,13 @@ int main() {
     scanf( "%d", &num ) ; //รับค่า num
     GetSet( data, &num ) ;
 
+    for ( int i = 0 ; i < num ; i++ )  // แสดงค่า
+        printf( "data_in_main[%d] = %d\n", i, data[i] ) ; //end for
     return 0 ;
-}
+}//end function
 
 void GetSet( int data[], int *num ) {
-    printf( "\n-------------------\n" ) ;
+    printf( "\n--------GetSet----------\n" ) ;
     printf( "Num = %d\n", *num ) ;
 
     // รับค่าลงใน array
@@ -25,8 +37,8 @@ void GetSet( int data[], int *num ) {
     }//end for
 
     
-    printf("\nEntered data: \n"); 
-    for (int i = 0; i < *num; i++) { // แสดงค่า array
-        printf("data[%d] = %d\n", i, data[i]);
-    }
-}
+    // printf( "\noutput \n" ) ; 
+    // for ( int i = 0 ; i < *num ; i++ ) { // แสดงค่า
+    //     printf( "data[%d] = %d\n", i, data[i] ) ;  //end for
+
+}//end GetSet function

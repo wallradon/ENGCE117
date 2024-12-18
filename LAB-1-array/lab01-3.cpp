@@ -10,6 +10,15 @@
     output
         Number of elements: 3
         10 20 30
+
+        #include <stdio.h>
+        int *GetSet( int * ) ;
+
+        int main() {
+         int *data, num ;
+         data = GetSet( &num ) ;
+         return 0 ;
+        }//end function
 */
 
 #include <stdio.h>
@@ -32,19 +41,18 @@ int *GetSet( int *num ) {
     int elements[*num] ;
     printf("Enter the elements: ");
     for (int i = 0; i < *num; i++) {
-        scanf("%d", &elements[i]);  // รับค่าใช้ Spacebar เพื่อยืนยัน
+        scanf("%d", &elements[i]);  
     }
     printf( "\n---------output-------------\n" ) ;
 
     printf( "Number of elements: %d\n", *num ) ;
-    for (int a = 0 ; a < *num ; a++ )
-    {
+    for (int a = 0 ; a < *num ; a++ ) {
         printf( "%d ", elements[a] ) ;
-    }
+    }//
     printf( "\n" ) ;
     
     // printf( "num in getSet : %d numAd : %d \n", &num, num ) ;
 
-    // return num ;
+    return num ;
 
 }//end function

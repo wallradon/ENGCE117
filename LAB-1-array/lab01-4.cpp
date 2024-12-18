@@ -1,4 +1,3 @@
-
 /* 
     Enter the number of elements: 3
     Enter the elements: 10 20 30
@@ -11,33 +10,46 @@
 
     Number of elements: 4
     7 14 21 28  
+
+    #include <stdio.h>
+
+    int GetSet( int [] ) ;
+
+    int main() {
+        int *data, num ;
+        num = GetSet( &data ) ;
+        return 0 ;
+    }//end function
 */
 
 #include <stdio.h>
 
-int GetSet( int [] ) ;
+int GetSet( int data[] ) ;
 
 int main() {
-    int data[100], num ;
+    int data[100], num = 0 ;
+    printf( "num = %d\n", num ) ;
     num = GetSet( data ) ;
-    // printf( "Num in main = %d", num ) ;
+    printf( "-------------------\nNum in main = %d", num ) ;
+    printf( "\nout : \n", num ) ;
+    for ( int i = 0 ; i < num ; i++ ) {
+        printf( "%d ", data[i] ) ;
+    }//end for
+    
     return 0 ;
 }//end function
 
 int GetSet( int data[] ) {
     int num ;
-    
-    printf( "Enter the number of elements: " ) ; // รับจำนวน index
+    printf( "Enter the number of elements: " ) ; 
     scanf( "%d", &num ) ;
-    data[num] ;
-    printf( "Enter the elements: " ) ; // รับค่าในarray
+    printf( "Enter the elements: " ) ; 
     for ( int i = 0 ; i < num; i++ ) {
         scanf( "%d", &data[i] ) ;
-    }
-
-    printf( "\nNumber of elements: %d \n", num ) ;
-    for (int n = 0 ; n < num ; n++ ) {
-        printf("%d ", data[ n ] ) ;
+    }//end for
+    printf( "\nNumber of elements_inFN: %d \n", num ) ;
+    for (int j = 0 ; j < num ; j++ ) {
+        printf( "%d ", data[j] ) ;
     }//end for
     printf( "\n\n" ) ;
     return num ;  

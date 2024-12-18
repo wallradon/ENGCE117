@@ -6,7 +6,6 @@ int main() {
     char text[ 50 ] = "The quick  brown    fox" ;
     char *out ;
     out = reverse( text ) ;
-
     printf( "\n %s \n", out ) ;
 
     return 0 ;
