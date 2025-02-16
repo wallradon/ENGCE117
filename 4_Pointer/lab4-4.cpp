@@ -30,7 +30,7 @@ int main() {
     now2 = &start ;
     printf( "befor next = %s \n", now1->name ) ;
     GoNext1( &now1 ) ;
-    printf( "%s \n", now1->name ) ;
+    printf( "\n After next = %s \n", now1->name ) ;
 
 
     return 0 ;

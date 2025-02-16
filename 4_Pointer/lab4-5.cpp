@@ -27,7 +27,7 @@ int main() {
     now2 = &start ;
 
     GoNext2( now2 ) ;
-    printf( "%s ", (*now2)->name ) ;
+    printf( "\n%s \n", (*now2)->name ) ;
 
     return 0 ;
 }//end function
