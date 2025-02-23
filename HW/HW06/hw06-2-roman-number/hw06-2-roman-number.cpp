@@ -39,7 +39,7 @@ int main() {
         for ( int i = 0; i < 13; i++ ) {
             while ( num >= values[i] ) { 
                 printf( "%s", symbols[i] ) ;
-                num -= values[i] ; //ลดค่า
+                num -= values[i] ; 
             }//end while
         }//end for
 
