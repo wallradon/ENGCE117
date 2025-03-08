@@ -1,0 +1,10 @@
+Greedy Algorithm : Shortest Path
+   2    3    4 
+  -1    2    5 
+   5    2    9 
+3 4 
+Total Range = 4
+
+Greedy Algorithm : Knapsack Problem
+1 1 1 0 
+Value = 29
